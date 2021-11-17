@@ -35,7 +35,7 @@ namespace FileMoveToolByExtension // Note: actual namespace depends on the proje
             #endregion
 
             #region Enter search path for files
-            // Backup created, now need to enter search path for images, and the directory to copy them
+            // Backup created, now need to enter search path for files, and the directory to copy them
             System.Threading.Thread.Sleep(3000);
             Console.WriteLine("Enter path to search for files");
             string RootPath = Console.ReadLine();
